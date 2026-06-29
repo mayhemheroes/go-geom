@@ -1,0 +1,5 @@
+project: go-geom
+target: go-geom-encoding-wkb-fuzz
+cmds:
+  - cmd: /mayhem/go-geom-encoding-wkb-fuzz
+    libfuzzer: true
